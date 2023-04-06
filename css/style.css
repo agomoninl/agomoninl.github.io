@@ -548,3 +548,15 @@ h6,
 .bigger-btn{
     font-weight: 900 !important;
 }
+
+.contact-us{
+    margin-right: 6em;
+}
+
+.ps-3 span{
+    font-size: 0.7em;
+}
+
+.text-justified{
+    text-align: justify;
+}
