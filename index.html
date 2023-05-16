@@ -456,24 +456,6 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script src="js/sendMail.js"></script>
-    <script>
-    $('body').on('click','#btn', function (e) { 
-        e.preventDefault();
-        Email.send({
-            Host : "smtp.gmail.com",
-            Username : "deep.9477@gmail.com",
-            Password : "123Qw123@dee",
-            To : 'deep.9477@gmail.com',
-            From : "disary@sarkar.com",
-            Subject : "This is the subject",
-            Body : "And this is the body"
-        }).then(
-        message => alert(message)
-        ); 
-        return false;
-    }); 
-    </script>
 </body>
 
 </html>
